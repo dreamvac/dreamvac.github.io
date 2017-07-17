@@ -9,7 +9,8 @@ html {
 
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  min-width: 960px; }
 
 header {
   max-width: 1200px;
