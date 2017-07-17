@@ -1,0 +1,125 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+$footerHeight: 220px;
+$headerHeight: 100px;
+
+html {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  max-width: 1200px;
+  overflow: hidden;
+  height: $headerHeight;
+  nav {
+    height: 100px;
+    width: 100%;
+
+    h1 {
+      display: inline-block;
+      margin: 0;
+      padding: 0;
+    }
+
+    img {
+      display: block;
+      height: 80px;
+    }
+
+    .navbar {
+      height: 40px;
+      margin: 30px 20px;
+    }
+  }
+}
+
+.main {
+  min-height: 100vh;
+  margin-top: -$headerHeight;
+  margin-bottom: 0;
+  padding: $headerHeight 0 $footerHeight 0;
+}
+.footer {
+  height: $footerHeight;
+  margin-top: -$footerHeight;
+  background: #161616;
+  color: #bebebe !important;
+
+  .footer-nav {
+     margin: 10px 0 0px 0 !important;
+  }
+  .footer-nav li {
+    // display: list-item;
+    // float: left;
+    margin: 10px 0px;
+    a {
+       color: #bebebe !important;
+    }
+  }
+}
+
+.company-information {
+  // display: inline-block;
+   font-size: 16px;
+  .base-information {
+    display: inline-block;
+    text-align: left;
+    margin-right: 100px;
+    font-size: 18px;
+
+    .company-name {
+      font-size: 22px;
+      // font-style: italic;
+      font-weight: 800;
+      font-family: "宋体", "PingFang Regular", Helvetica;
+    }
+
+    .telephone-number, .qq-number, .weichat-number {
+        span:first-child {
+          display: inline-block;
+          width: 60px;
+          text-align: left;
+        }
+    }
+  }
+
+  .weichat-code {
+    display: inline-block;
+     vertical-align: top;
+
+    span {
+     
+    }
+    img {
+      height: 100px;
+      width: 100px;
+    }
+  }
+
+  .address {
+    address {
+      margin: 8px 0;
+    }
+  }
+  // a img {
+  //   height: 60px;
+  //   width: 150px;
+  // }
+  // .scancode {
+  //   display: inline-block;
+
+  //   img {
+  //     width: 50px;
+  //     height: 50px;
+  //   }
+  // }
+}
