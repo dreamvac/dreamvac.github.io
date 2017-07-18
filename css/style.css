@@ -1,89 +1,115 @@
 @charset "UTF-8";
+/* line 1, css/style.scss */
 * {
   margin: 0;
   padding: 0; }
 
+/* line 9, css/style.scss */
 html {
   margin: 0;
   padding: 0; }
 
+/* line 14, css/style.scss */
 body {
   margin: 0;
   padding: 0;
   min-width: 960px; }
 
+/* line 20, css/style.scss */
 header {
   max-width: 1200px;
-  overflow: hidden;
-  height: 100px; }
+  overflow: hidden; }
+  /* line 24, css/style.scss */
   header nav {
     height: 100px;
     width: 100%; }
+    /* line 28, css/style.scss */
     header nav h1 {
       display: inline-block;
       margin: 0;
       padding: 0; }
+    /* line 34, css/style.scss */
     header nav img {
       display: block;
       height: 80px; }
+    /* line 39, css/style.scss */
     header nav .navbar {
       height: 40px;
       margin: 30px 20px; }
 
-.main {
-  min-height: 100vh;
-  margin: -100px auto 0 auto;
-  padding: 100px 0 250px 0; }
-  .main .content {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 15px 20px; }
-  .main .nav-bar {
-    height: 60px; }
-    .main .nav-bar h2 {
-      font-size: 18px; }
-    .main .nav-bar h2, .main .nav-bar ol {
-      display: inline-block;
-      background: transparent;
-      color: #999; }
-    .main .nav-bar ol li {
-      font-size: 16px; }
-    .main .nav-bar ol li a {
-      font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
+/* line 51, css/style.scss */
+.main .content {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 15px 20px; }
 
+/* line 56, css/style.scss */
+.main .nav-bar {
+  border: 1px solid transparent;
+  overflow: hidden; }
+  /* line 60, css/style.scss */
+  .main .nav-bar h2 {
+    font-size: 18px; }
+  /* line 63, css/style.scss */
+  .main .nav-bar h2, .main .nav-bar ol {
+    display: inline-block;
+    background: transparent;
+    color: #999; }
+  /* line 68, css/style.scss */
+  .main .nav-bar ol {
+    position: relative;
+    top: 10px; }
+  /* line 72, css/style.scss */
+  .main .nav-bar ol li {
+    font-size: 16px; }
+  /* line 75, css/style.scss */
+  .main .nav-bar ol li a {
+    font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
+
+/* line 80, css/style.scss */
 .footer {
   height: 250px;
-  margin-top: -250px;
+  width: 100%;
   background: #161616;
   color: #bebebe !important;
   overflow: hidden; }
+  /* line 87, css/style.scss */
   .footer .footer-nav {
     margin: 10px 0 0px 0 !important; }
+  /* line 90, css/style.scss */
   .footer .footer-nav li {
     margin: 10px 0px; }
+    /* line 94, css/style.scss */
     .footer .footer-nav li a {
       color: #bebebe !important; }
 
+/* line 100, css/style.scss */
 .company-information {
   font-size: 16px; }
+  /* line 103, css/style.scss */
   .company-information .base-information {
     display: inline-block;
     text-align: left;
     margin-right: 100px;
     font-size: 18px; }
+    /* line 109, css/style.scss */
     .company-information .base-information .company-name {
       font-size: 22px;
       font-weight: 800;
       font-family: "宋体", "PingFang Regular", Helvetica; }
+    /* line 117, css/style.scss */
     .company-information .base-information .telephone-number span:first-child, .company-information .base-information .qq-number span:first-child, .company-information .base-information .weichat-number span:first-child {
       display: inline-block;
       width: 60px;
       text-align: left; }
+  /* line 125, css/style.scss */
   .company-information .weichat-code {
     display: inline-block;
     vertical-align: top; }
+    /* line 132, css/style.scss */
     .company-information .weichat-code img {
       height: 100px;
       width: 100px; }
+  /* line 139, css/style.scss */
   .company-information .address address {
     margin: 8px 0; }

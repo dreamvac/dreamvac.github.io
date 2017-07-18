@@ -1,0 +1,20 @@
+.content-sample {
+  overflow: hidden;
+  text-align: center; }
+  .content-sample h3 {
+    text-align: left;
+    clear: both; }
+  .content-sample figure {
+    display: inline-block;
+    margin: 10px 10px;
+    width: 80%; }
+    .content-sample figure:last-child {
+      float: left; }
+    .content-sample figure figcaption {
+      margin: 5px; }
+  @media (min-width: 600px) {
+    .content-sample figure {
+      width: 40%; } }
+  @media (min-width: 900px) {
+    .content-sample figure {
+      width: 30%; } }
