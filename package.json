@@ -1,0 +1,21 @@
+{
+  "name": "dreamvac.github.io",
+  "version": "1.0.0",
+  "description": "Hephoon Website",
+  "main": "index.js",
+  "dependencies": {
+    "sass-lint": "^1.10.2"
+  },
+  "devDependencies": {
+    "webpack": "^3.3.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com.sub:dreamvac/dreamvac.github.io.git"
+  },
+  "author": "vac",
+  "license": "ISC"
+}

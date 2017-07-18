@@ -32,15 +32,31 @@ header {
 
 .main {
   min-height: 100vh;
-  margin-top: -100px;
-  margin-bottom: 0;
-  padding: 100px 0 220px 0; }
+  margin: -100px auto 0 auto;
+  padding: 100px 0 250px 0; }
+  .main .content {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 15px 20px; }
+  .main .nav-bar {
+    height: 60px; }
+    .main .nav-bar h2 {
+      font-size: 18px; }
+    .main .nav-bar h2, .main .nav-bar ol {
+      display: inline-block;
+      background: transparent;
+      color: #999; }
+    .main .nav-bar ol li {
+      font-size: 16px; }
+    .main .nav-bar ol li a {
+      font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
 
 .footer {
-  height: 220px;
-  margin-top: -220px;
+  height: 250px;
+  margin-top: -250px;
   background: #161616;
-  color: #bebebe !important; }
+  color: #bebebe !important;
+  overflow: hidden; }
   .footer .footer-nav {
     margin: 10px 0 0px 0 !important; }
   .footer .footer-nav li {
