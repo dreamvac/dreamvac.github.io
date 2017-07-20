@@ -1,7 +1,7 @@
 import '../css/style.scss'
 import '../css/index2.scss'
-import * as Vue from 'vue'
-import * as $ from 'jquery'
+import Vue from 'vue'
+import $ from 'jquery'
 
 $(document).ready(function () {
   var config = [
