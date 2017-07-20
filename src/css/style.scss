@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  min-width: 960px;
+  // min-width: 960px;
 }
 
 header {
@@ -22,7 +22,6 @@ header {
   overflow: hidden;
   // height: $headerHeight;
   nav {
-    height: 100px;
     width: 100%;
 
     h1 {
@@ -44,19 +43,21 @@ header {
 }
 
 .main {
+  overflow: hidden;
   // min-height: 100vh;
   // margin: -$headerHeight auto 0 auto;
   // padding: $headerHeight 0 $footerHeight 0;
 
   .content {
     max-width: 1100px;
-    margin: 0 auto;
+    margin: 0px auto 0 auto;
     padding: 15px 20px;
   }
   .nav-bar {
     // height: 60px;
-    border: 1px solid transparent;
+    border-bottom: 1px solid #ccc;
     overflow: hidden;
+    padding: 5px 10px;
     h2 {
       font-size: 18px;
     }

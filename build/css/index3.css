@@ -1,115 +1,109 @@
 @charset "UTF-8";
-/* line 1, css/style.scss */
 * {
   margin: 0;
   padding: 0; }
 
-/* line 9, css/style.scss */
 html {
   margin: 0;
   padding: 0; }
 
-/* line 14, css/style.scss */
 body {
   margin: 0;
-  padding: 0;
-  min-width: 960px; }
+  padding: 0; }
 
-/* line 20, css/style.scss */
 header {
   max-width: 1200px;
   overflow: hidden; }
-  /* line 24, css/style.scss */
   header nav {
-    height: 100px;
     width: 100%; }
-    /* line 28, css/style.scss */
     header nav h1 {
       display: inline-block;
       margin: 0;
       padding: 0; }
-    /* line 34, css/style.scss */
     header nav img {
       display: block;
       height: 80px; }
-    /* line 39, css/style.scss */
     header nav .navbar {
       height: 40px;
       margin: 30px 20px; }
 
-/* line 51, css/style.scss */
-.main .content {
-  max-width: 1100px;
-  margin: 0 auto;
-  padding: 15px 20px; }
-
-/* line 56, css/style.scss */
-.main .nav-bar {
-  border: 1px solid transparent;
+.main {
   overflow: hidden; }
-  /* line 60, css/style.scss */
-  .main .nav-bar h2 {
-    font-size: 18px; }
-  /* line 63, css/style.scss */
-  .main .nav-bar h2, .main .nav-bar ol {
-    display: inline-block;
-    background: transparent;
-    color: #999; }
-  /* line 68, css/style.scss */
-  .main .nav-bar ol {
-    position: relative;
-    top: 10px; }
-  /* line 72, css/style.scss */
-  .main .nav-bar ol li {
-    font-size: 16px; }
-  /* line 75, css/style.scss */
-  .main .nav-bar ol li a {
-    font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
+  .main .content {
+    max-width: 1100px;
+    margin: 0px auto 0 auto;
+    padding: 15px 20px; }
+  .main .nav-bar {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 5px 10px; }
+    .main .nav-bar h2 {
+      font-size: 18px; }
+    .main .nav-bar h2, .main .nav-bar ol {
+      display: inline-block;
+      background: transparent;
+      color: #999; }
+    .main .nav-bar ol {
+      position: relative;
+      top: 10px; }
+    .main .nav-bar ol li {
+      font-size: 16px; }
+    .main .nav-bar ol li a {
+      font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
 
-/* line 80, css/style.scss */
 .footer {
   height: 250px;
   width: 100%;
   background: #161616;
   color: #bebebe !important;
   overflow: hidden; }
-  /* line 87, css/style.scss */
   .footer .footer-nav {
     margin: 10px 0 0px 0 !important; }
-  /* line 90, css/style.scss */
   .footer .footer-nav li {
     margin: 10px 0px; }
-    /* line 94, css/style.scss */
     .footer .footer-nav li a {
       color: #bebebe !important; }
 
-/* line 100, css/style.scss */
 .company-information {
   font-size: 16px; }
-  /* line 103, css/style.scss */
   .company-information .base-information {
     display: inline-block;
     text-align: left;
     margin-right: 100px;
     font-size: 18px; }
-    /* line 109, css/style.scss */
     .company-information .base-information .company-name {
       font-size: 22px;
       font-weight: 800;
-      font-family: "宋体", "PingFang Regular", Helvetica; }
-    /* line 117, css/style.scss */
+      font-family: "\5B8B\4F53", "PingFang Regular", Helvetica; }
     .company-information .base-information .telephone-number span:first-child, .company-information .base-information .qq-number span:first-child, .company-information .base-information .weichat-number span:first-child {
       display: inline-block;
       width: 60px;
       text-align: left; }
-  /* line 125, css/style.scss */
   .company-information .weichat-code {
     display: inline-block;
     vertical-align: top; }
-    /* line 132, css/style.scss */
     .company-information .weichat-code img {
       height: 100px;
       width: 100px; }
-  /* line 139, css/style.scss */
   .company-information .address address {
     margin: 8px 0; }
+.content-sample {
+  overflow: hidden;
+  text-align: center; }
+  .content-sample h3 {
+    text-align: left;
+    clear: both; }
+  .content-sample figure {
+    display: inline-block;
+    margin: 10px 10px;
+    width: 80%; }
+    .content-sample figure:last-child {
+      float: left; }
+    .content-sample figure figcaption {
+      margin: 5px; }
+  @media (min-width: 600px) {
+    .content-sample figure {
+      width: 40%; } }
+  @media (min-width: 900px) {
+    .content-sample figure {
+      width: 30%; } }
