@@ -104,12 +104,13 @@ header {
     padding: 10px 10px; }
 
 .pic-show-wrapper {
-  display: inline-block;
-  width: calc(100% - 150px);
+  float: right;
+  display: flex;
+  flex-wrap: wrap;
+  width: calc(100% - 160px);
   margin: 0px 0 auto 20px; }
   .pic-show-wrapper figure {
-    float: left;
-    margin: 10px 20px 10px 20px; }
+    margin: 10px auto 10px auto; }
     .pic-show-wrapper figure figcaption {
       text-align: center;
       margin-top: 5px; }
