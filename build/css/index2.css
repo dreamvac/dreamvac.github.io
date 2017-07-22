@@ -1,0 +1,147 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+html {
+  margin: 0;
+  padding: 0; }
+
+body {
+  margin: 0;
+  padding: 0; }
+
+@media (max-width: 767px) {
+  header.header {
+    background: #fff;
+    overflow: visible;
+    font-size: 0; }
+    header.header nav {
+      position: relative; }
+    header.header nav img {
+      display: block;
+      height: 60px; }
+    header.header nav h1 {
+      margin: auto;
+      display: block;
+      height: 60px;
+      text-align: center; }
+      header.header nav h1 a {
+        display: inline-block;
+        margin: 0 auto; }
+    header.header nav ul.navbar {
+      display: block;
+      height: 0;
+      min-height: 0;
+      margin: 0;
+      background: #ffffff;
+      font-size: 14px;
+      transition: height 0.5s linear;
+      overflow: hidden; }
+      header.header nav ul.navbar li {
+        display: list-item;
+        float: none;
+        text-align: center; }
+    header.header nav ul.navbar.show {
+      height: 200px; }
+    header.header button.btn {
+      position: absolute;
+      right: 30px;
+      top: 15px;
+      border: none;
+      color: #ff6c60; } }
+
+.main {
+  overflow: hidden; }
+  .main .content {
+    max-width: 1024px;
+    margin: 0px auto 0 auto;
+    padding: 15px 20px; }
+  .main .nav-bar {
+    border-bottom: 1px solid #ccc;
+    overflow: hidden;
+    padding: 5px 10px; }
+    .main .nav-bar h2 {
+      font-size: 18px; }
+    .main .nav-bar h2, .main .nav-bar ol {
+      display: inline-block;
+      background: transparent;
+      color: #999; }
+    .main .nav-bar ol {
+      position: relative;
+      top: 10px; }
+    .main .nav-bar ol li {
+      font-size: 16px; }
+    .main .nav-bar ol li a {
+      font-family: "Microsoft YaHei", Tahoma, Verdana, "Simsun"; }
+
+.footer {
+  height: 250px;
+  width: 100%;
+  background: #161616;
+  color: #bebebe !important;
+  overflow: hidden; }
+  .footer .footer-nav {
+    margin: 10px 0 0px 0 !important; }
+  .footer .footer-nav li {
+    margin: 10px 0px; }
+    .footer .footer-nav li a {
+      color: #bebebe !important; }
+
+.company-information {
+  font-size: 16px; }
+  .company-information .base-information {
+    display: inline-block;
+    text-align: left;
+    margin-right: 100px;
+    font-size: 18px; }
+    .company-information .base-information .company-name {
+      font-size: 22px;
+      font-weight: 800;
+      font-family: "\5B8B\4F53", "PingFang Regular", Helvetica; }
+    .company-information .base-information .telephone-number span:first-child, .company-information .base-information .qq-number span:first-child, .company-information .base-information .weichat-number span:first-child {
+      display: inline-block;
+      width: 60px;
+      text-align: left; }
+  .company-information .weichat-code {
+    display: inline-block;
+    vertical-align: top; }
+    .company-information .weichat-code img {
+      height: 100px;
+      width: 100px; }
+  .company-information .address address {
+    margin: 8px 0; }
+.nav-wrapper {
+  display: inline-block;
+  width: 140px;
+  vertical-align: top;
+  padding: 0;
+  border: 1px solid #ddd; }
+  .nav-wrapper > p {
+    margin: 0;
+    padding: 10px 10px 10px 10px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-weight: bolder; }
+  .nav-wrapper ul.nav {
+    margin: 0;
+    padding: 10px 10px; }
+
+.pic-show-wrapper {
+  float: right;
+  width: calc(100% - 160px);
+  margin: 0px 0 auto 20px; }
+  .pic-show-wrapper > div {
+    display: flex;
+    flex-wrap: wrap; }
+  .pic-show-wrapper figure {
+    margin: 10px auto 10px auto; }
+    .pic-show-wrapper figure figcaption {
+      text-align: center;
+      margin-top: 5px; }
+  .pic-show-wrapper figure:last-child {
+    align-self: flex-start; }
+
+.Page {
+  margin: 10px auto;
+  text-align: center; }
