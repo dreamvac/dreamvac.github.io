@@ -4,14 +4,11 @@ import Vue from 'vue'
 import $ from 'jquery'
 
 $(document).ready(function () {
-  var config = [
-    ''
-  ]
   var vue = new Vue({
     el: '#v-main',
     data: {
       imgs: [],
-      currentImgGroup: null,
+      currentImgGroup: [],
       pageController: {
         total: 1, // 总页码
         current: 1, // 当前页码
