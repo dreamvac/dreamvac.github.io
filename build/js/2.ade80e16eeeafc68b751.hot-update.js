@@ -1,0 +1,11 @@
+webpackHotUpdate(2,{
+
+/***/ 3:
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+eval("\n\n__webpack_require__(1);\n\nvar _vue = __webpack_require__(2);\n\nvar _vue2 = _interopRequireDefault(_vue);\n\nfunction _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }\n\n__webpack_require__(5);\n\n\nvar vue = new _vue2.default({\n  el: '#v-main',\n  data: {}\n});\n\nvar headerVue = new _vue2.default({\n  el: '#v-header',\n  data: {\n    isShow: false\n  },\n  methods: {\n    toggle: function toggle() {\n      console.log('hehe');\n      this.isShow = !this.isShow;\n    }\n  }\n});//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIndlYnBhY2s6Ly8vLi9zcmMvanMvaW5kZXguanM/YmM2NiJdLCJuYW1lcyI6WyJyZXF1aXJlIiwidnVlIiwiZWwiLCJkYXRhIiwiaGVhZGVyVnVlIiwiaXNTaG93IiwibWV0aG9kcyIsInRvZ2dsZSIsImNvbnNvbGUiLCJsb2ciXSwibWFwcGluZ3MiOiI7O0FBQUE7O0FBRUE7Ozs7OztBQURBLG1CQUFBQSxDQUFRLENBQVI7OztBQUdBLElBQUlDLE1BQU0sa0JBQVE7QUFDaEJDLE1BQUksU0FEWTtBQUVoQkMsUUFBTTtBQUZVLENBQVIsQ0FBVjs7QUFLQSxJQUFJQyxZQUFZLGtCQUFRO0FBQ3RCRixNQUFJLFdBRGtCO0FBRXRCQyxRQUFNO0FBQ0pFLFlBQVE7QUFESixHQUZnQjtBQUt0QkMsV0FBUztBQUNQQyxZQUFRLGtCQUFXO0FBQ2pCQyxjQUFRQyxHQUFSLENBQVksTUFBWjtBQUNBLFdBQUtKLE1BQUwsR0FBYyxDQUFDLEtBQUtBLE1BQXBCO0FBQ0Q7QUFKTTtBQUxhLENBQVIsQ0FBaEIiLCJmaWxlIjoiMy5qcyIsInNvdXJjZXNDb250ZW50IjpbImltcG9ydCAnLi4vY3NzL3N0eWxlLnNjc3MnO1xyXG5yZXF1aXJlKCcuLi9jc3MvaW5kZXguc2NzcycpXHJcbmltcG9ydCBWdWUgZnJvbSAndnVlJ1xyXG5cclxudmFyIHZ1ZSA9IG5ldyBWdWUoe1xyXG4gIGVsOiAnI3YtbWFpbicsXHJcbiAgZGF0YToge31cclxufSlcclxuXHJcbnZhciBoZWFkZXJWdWUgPSBuZXcgVnVlKHtcclxuICBlbDogJyN2LWhlYWRlcicsXHJcbiAgZGF0YToge1xyXG4gICAgaXNTaG93OiBmYWxzZSxcclxuICB9LFxyXG4gIG1ldGhvZHM6IHtcclxuICAgIHRvZ2dsZTogZnVuY3Rpb24oKSB7XHJcbiAgICAgIGNvbnNvbGUubG9nKCdoZWhlJylcclxuICAgICAgdGhpcy5pc1Nob3cgPSAhdGhpcy5pc1Nob3dcclxuICAgIH1cclxuICB9XHJcbn0pXHJcblxyXG5cblxuXG4vLyBXRUJQQUNLIEZPT1RFUiAvL1xuLy8gLi9zcmMvanMvaW5kZXguanMiXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///3\n");
+
+/***/ })
+
+})

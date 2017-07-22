@@ -7,3 +7,16 @@ var vue = new Vue({
   data: {}
 })
 
+var headerVue = new Vue({
+  el: '#v-header',
+  data: {
+    isShow: false,
+  },
+  methods: {
+    toggle: function() {
+      console.log('hehe')
+      this.isShow = !this.isShow
+    }
+  }
+})
+

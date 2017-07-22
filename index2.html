@@ -10,7 +10,7 @@
   <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
   <link rel="stylesheet" href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
     crossorigin="anonymous">
-  <!-- <link href="./build/css/common.css" rel="stylesheet"> -->
+  <link href="./layui/css/layui.css" rel="stylesheet"> 
   <link href="./build/css/index2.css" rel="stylesheet">
   <!-- <script src="https://unpkg.com/vue"></script> -->
 </head>
@@ -80,21 +80,27 @@
       <div class="nav-wrapper">
         <p>产品分类</p>
         <ul class="nav nav-pills nav-stacked">
-          <li><a href="">亚克力UV打印</a></li>
-          <li><a href="">PS板UV打印</a></li>
-          <li><a href="">雪弗板UV打印</a></li>
-          <li><a href="">玻璃UV打印</a></li>
-          <li><a href="">石材UV打印</a></li>
-          <li><a href="">金属UV喷画</a></li>
-          <li><a href="">皮革UV打印</a></li>
+          <li><a data-index="1" @click="chooseType($event)">亚克力UV打印</a></li>
+          <li><a data-index="2" @click="chooseType($event)">PS板UV打印</a></li>
+          <li><a data-index="3" @click="chooseType($event)">雪弗板UV打印</a></li>
+          <li><a data-index="4" @click="chooseType($event)">玻璃UV打印</a></li>
+          <li><a data-index="5" @click="chooseType($event)">石材UV打印</a></li>
+          <li><a data-index="6" @click="chooseType($event)">金属UV喷画</a></li>
+          <li><a data-index="7" @click="chooseType($event)">皮革UV打印</a></li>
         </ul>
       </div>
       <div class="pic-show-wrapper">
-        <figure v-for="img in imgs">
+        <div>
+          <figure v-for="img in currentImgGroup">
           <img :src="img.url" :alt="img.name">
           <figcaption>{{img.name}}</figcaption>
-        </figure>
+        </figure> 
+        </div>
+        <!-- 分页组件 -->
+        <nav class="Page navigation" id="pagination">
+        </nav>
       </div>
+      
     </main>
   </main>
   <footer class="footer">
@@ -138,8 +144,9 @@
       <span>Copyright(C)www.hephoon.com All Rights Reserved</span>
     </div>
   </footer>
-   <script src="./build/js/common.js"></script>
-   <script src="./build/js/index2.js"></script> 
+  <script src="./layui/layui.js"></script>
+   <script src="build/js/common.js"></script>
+   <script src="build/js/index2.js"></script> 
 </body>
 
 </html>
