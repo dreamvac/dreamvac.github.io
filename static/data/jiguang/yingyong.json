@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "url": "/static/img/jiguang/yingyong/psb.jpg",
+      "name": "五金制品"
+    },
+    {
+       "url": "/static/img/jiguang/yingyong/psb_1.jpg",
+      "name": "塑胶按钮"
+    },
+    {
+       "url": "/static/img/jiguang/yingyong/psb_2.jpg",
+      "name": "五金制品"
+    },
+    {
+       "url": "/static/img/jiguang/yingyong/psb_3.jpg",
+      "name": "二维码"
+    },
+    {
+      "url": "/static/img/jiguang/yingyong/psb_5.jpg",
+      "name": "电子产品标识"
+    },
+    {
+      "url": "/static/img/jiguang/yingyong/psb_6.jpg",
+      "name": "电子产品标识"
+    },
+    {
+      "url": "/static/img/jiguang/yingyong/psb_6.jpg",
+      "name": "工艺品"
+    }
+  ]
+}

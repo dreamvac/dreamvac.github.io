@@ -1,0 +1,32 @@
+{
+  "data": [
+    {
+      "url": "/static/img/jiguang/yangpin/psb_8.jpg",
+      "name": "五金制品"
+    },
+    {
+       "url": "/static/img/jiguang/yangpin/psb_9.jpg",
+      "name": "塑胶按钮"
+    },
+    {
+       "url": "/static/img/jiguang/yangpin/psb_10.jpg",
+      "name": "五金制品"
+    },
+    {
+       "url": "/static/img/jiguang/yangpin/psb_11.jpg",
+      "name": "二维码"
+    },
+    {
+      "url": "/static/img/jiguang/yangpin/psb_12.jpg",
+      "name": "电子产品标识"
+    },
+    {
+      "url": "/static/img/jiguang/yangpin/psb_13.jpg",
+      "name": "电子产品标识"
+    },
+    {
+      "url": "/static/img/jiguang/yangpin/psb_14.jpg",
+      "name": "工艺品"
+    }
+  ]
+}
